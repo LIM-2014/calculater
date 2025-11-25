@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>System Dashboard</title>
+    <link rel="stylesheet" href="/static/css/core.css">
+</head>
+<body>
+    <div class="layout">
+        <header class="header">
+            <h1>Node Monitor</h1>
+        </header>
+
+        <section class="panel">
+            <div class="widget" data-status="sync">
+                <h2>Cluster Status</h2>
+                <p>Loading metrics...</p>
+            </div>
+
+            <div class="widget logs">
+                <h2>Event Logs</h2>
+                <ul>
+                    <li>[INFO] Initializing...</li>
+                    <li>[WARN] Latency detected</li>
+                    <li>[OK] Sync complete</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="footer">v2.18 · internal</footer>
+    </div>
+</body>
+</html>
